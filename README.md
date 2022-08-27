@@ -7,13 +7,16 @@ ES6 support via [Babel 7](https://babeljs.io/) and [Webpack 4](https://webpack.j
 Loading images via JavaScript module `import` is also supported.
 
 ## Quickstart
+#### initial install with their package.json required node-gyp and canvas to be installed :
+- [node-gyp](https://www.npmjs.com/package/node-gyp),
 
-`git clone https://github.com/nodes777/phaser3-react-template`
-`npm install`
-`npm start`
+- helpful dependency resolver tool: 
+- [ npm-check-updates](https://www.npmjs.com/package/npm-check-updates); 
+  - [article on npm err code 1](https://sebhastian.com/npm-err-code-1/#:~:text=code%201%20error%20usually%20occurs,installed%20properly%20on%20your%20computer.&text=This%20means%20that%20npm%20fails,to%20the%20n%2Dapp%20project.)
+- These issues should be resolved I think with the new pacakge-json. If you get A lot of npm-gyp or node-gyp errors then you don't have node-gyp installed but am not sure if this will be necessary...
 
 Note: The default browser that opens is Chrome. If you don't have Chrome or wish to change the opened browser, change the start script in package.json. More details on [this webpack-cli thread](https://github.com/webpack/webpack-cli/issues/2001).
-
+### this will not be necessary start script when using another server like node or express. this is for webpack dev server
 `"start": "webpack serve --config webpack/base.js --open <your-preferred-browser.exe>"`
 
 ## Requirements
