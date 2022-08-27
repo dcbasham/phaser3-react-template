@@ -7,11 +7,12 @@ ES6 support via [Babel 7](https://babeljs.io/) and [Webpack 4](https://webpack.j
 Loading images via JavaScript module `import` is also supported.
 
 ## Quickstart
-### initial install with their package.json required node-gyp and canvas to be installed 
-[node-gyp](https://www.npmjs.com/package/node-gyp)
+#### initial install with their package.json required node-gyp and canvas to be installed :
+- [node-gyp](https://www.npmjs.com/package/node-gyp),
+
 - helpful dependency resolver tool: 
-[ npm-check-updates](https://www.npmjs.com/package/npm-check-updates)
-[article on npm err code 1](https://sebhastian.com/npm-err-code-1/#:~:text=code%201%20error%20usually%20occurs,installed%20properly%20on%20your%20computer.&text=This%20means%20that%20npm%20fails,to%20the%20n%2Dapp%20project.)
+- [ npm-check-updates](https://www.npmjs.com/package/npm-check-updates), 
+- [article on npm err code 1](https://sebhastian.com/npm-err-code-1/#:~:text=code%201%20error%20usually%20occurs,installed%20properly%20on%20your%20computer.&text=This%20means%20that%20npm%20fails,to%20the%20n%2Dapp%20project.)
 `git clone https://github.com/nodes777/phaser3-react-template`
 `npm install`
 `npm start`
