@@ -6,6 +6,7 @@ const compression = require('compression');
 const PORT = process.env.DATABASE_URL || 8080;
 const app = express();
 const socketio = require('socket.io');
+const sockets = require('./socket');
 
 module.exports = app;
 
@@ -51,6 +52,6 @@ const startListening = () => {
   ); // require socket into our server
   const io = socketio(server);
   // include our secketio variable and require our socket folder
-  require('./socket')(io);
+  // require('./socket')(io);
 };
 startListening();
